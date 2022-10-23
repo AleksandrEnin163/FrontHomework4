@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_menu li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.nav_menu li:hover {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+.contact_button {
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    width: 173px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.contact_button:hover {
+    background-color: rgb(226, 213, 213);
+    cursor: pointer;
+}
+
+.contact_button:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+}
+
+main {
+    background-color: #EBEBEB;
+}
+
+.wrapper {
+    padding: 140px 200px;
+}
+
+#our_service h2 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #BDBDBD;
+    padding-bottom: 40px;
+}
+
+#our_service h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #333333;
+    padding-bottom: 100px;
+}
+
+#our_service .card_container_row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#our_service .card_container_row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#our_service .card {
+    width: 350px;
+    height: 360px;
+    background-image: url('../media/main/Rectangle\ 2.png');
+    background-size: cover;
+}
+
+#our_service .card:hover {
+    background-image: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)), url('../media/main/Rectangle\ 2.png');
+}
+
+#our_service .info p {
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    padding: 40px 118px 176px 45px;
+}
+
+#our_service .info a {
+    padding: 0 132px 40px 45px;
+}
+
+#our_service .info button {
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 173px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+#our_service .info button:hover {
+    background-color: rgb(226, 213, 213);
+    color: black;
+    cursor: pointer;
+}
+
+#our_service .info button:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+}
+
+footer {
+    padding: 140px 217px 140px 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_us h3 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #BDBDBD;
+    padding-bottom: 40px;
+}
+
+.about_us pre {
+    font-weight: 900;
+    font-size: 48px;
+    color: #333333;
+    padding-bottom: 60px;
+}
+
+.about_us p {
+    width: 445px;
+    height: 245px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.card_container_success_row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.card_container_success_row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_success {
+    background-color: #EBEBEB;
+    width: 255px;
+    height: 255px;
+}
+
+.card_success:hover {
+    background-color: #005FA3;
+    color: white;
+}
+
+.info_success .amount {
+    font-weight: 900;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding: 30px 140px 30px 40px;
+}
+
+.info_success .text_success {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 108px 31px 40px;
+}
+
+.info_success a {
+    padding: 0 52px 23px 30px;
+}
+
+.info_success button {
+    width: 173px;
+    height: 50px;
+    border: 2px solid #005FA3;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #005FA3;
+}
+
+.info_success:hover button {
+    background-color: #005FA3;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.info_success button:active {
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.571);
+}
